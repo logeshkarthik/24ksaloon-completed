@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+	<web-app>
+
+		<servlet>
+			<servlet-name>addmember</servlet-name>
+			<servlet-class>addmember.java</servlet-class>
+		</servlet>
+
+		<servlet-mapping>
+			<servlet-name>addmember</servlet-name>
+			<url-pattern>/addmember</url-pattern>
+		</servlet-mapping>
+		<servlet>
+			<description></description>
+			<display-name>bookappointment</display-name>
+			<servlet-name>bookappointment</servlet-name>
+			<servlet-class>bookappointment.java</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>bookappointment</servlet-name>
+			<url-pattern>/bookappointment</url-pattern>
+		</servlet-mapping>
+
+		<servlet>
+			<description></description>
+			<display-name>myaccount</display-name>
+			<servlet-name>myaccount</servlet-name>
+			<servlet-class>myaccount.java</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>myaccount</servlet-name>
+			<url-pattern>/myaccount</url-pattern>
+		</servlet-mapping>
+		
+
+		<welcome-file-list>
+			<welcome-file>index.jsp</welcome-file>
+			
+		</welcome-file-list>
+
+	</web-app>
+</element>
